@@ -1,4 +1,5 @@
 #include "array_dinamico.h"
+#include <stdio.h>
 #define INITIAL_CAPACITY = 10;
 
 struct ArrayDinamico {
