@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "matriz.h"
-
+// clang -Wall -pedantic -o build/main src/matriz.c src/main.c
+// ./build/main
 int main(void)
 {
     Matriz* matriz = matriz_create(3,3);
